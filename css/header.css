@@ -7,7 +7,7 @@ header{
     color: white;
     font-family: 'Inika', sans-serif;
     width: 100%;
-    height: 15%;
+    height: 10%;
     background-color: rgba(50, 0, 105, 0.5);
     box-shadow: rgba(0, 0, 0, 0.548) 0px 3px 6px;
 }
@@ -22,7 +22,6 @@ header{
     display: flex;
     gap: 10px;
     margin-left: 50px;
-    margin-top: 50px;
     font-size: 1.5rem;
     font-weight: 500;
 }
@@ -34,16 +33,14 @@ header{
 .pnew{
     position: relative;
     display: flex;
-    align-items: center;
-    background-color: teal;
     gap: 85px;
     font-size: 2rem;
     padding-right: 70px;
+    transition: all .3s;
 }
 
 .pnew a{
     text-shadow: 2px 2px 2px #3d0e61;
-    transition: all .3s;
     color: white;
     font-size: 1.5rem;
     display: flex;
@@ -61,58 +58,26 @@ header{
     width: 90px;
     color: white;
     transition: all .3s;
-}
-
-/* header{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    font-family: 'Gupter', sans-serif;
-    width: 100%;
-    height: 15%;
-}
-
-/*a { color: white; 
-    text-decoration: none;
 } 
 
-.header-container{
-    padding: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+@media(max-width: 850px){
+    .pnew{
+        display: none;
+    }
+    .pre{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        padding-top: 30px;
+        width: 100%;
+        margin-left: 0px;
+        justify-content: center;
+        padding-left: 1px;
+    }
 }
-
-.logo{
-    padding-left: 30px;
-    height: 50px;
-}
-
-.p-container{
-    position: relative;
-    display: flex;
-    gap: 95px;
-    font-size: 1.5rem;
-    padding-right: 70px;
-}
-
-.p-container a{
-    text-shadow: 2px 2px 2px #000;
-    transition: all .3s;
-    height: 45px;
-    width: 90px;
-    display: flex;
-    justify-content: center;
-}
-
-.p-container a:hover{
-    padding: 3px 3px;
-    box-sizing: border-box;
-    border-bottom: 4px solid #00CBBF;
-    border-radius: 5px;
-    height: 45px;
-    width: 90px;
-    transition: all .3s;
+@media(max-width: 830px){
+    .img-sb{
+        display: none;
+    }
 }

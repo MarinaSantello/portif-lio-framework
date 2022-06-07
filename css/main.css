@@ -42,6 +42,7 @@ h1 button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
 }
 
 .skills{
@@ -83,4 +84,61 @@ i{
     width: 70vw;
     display: flex;
     gap: 200px;
+}
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#coluna{
+    background: radial-gradient(#8207c5, #5b058a, #3c0960);
+    border: none;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Inika', serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.desc{
+    color: white;
+}
+
+
+.img{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 670px) {
+    #img {
+        display: none;
+    }
+
+    #description {
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .ab-me {
+        display: flex;
+        gap: 20px;
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
+    
+    i {
+        font-size: 5rem;
+    }
 }
