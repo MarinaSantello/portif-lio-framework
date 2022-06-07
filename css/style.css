@@ -1,0 +1,11 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#8207c5, #5b058a, #3c0960);
+}
+section{
+    height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}

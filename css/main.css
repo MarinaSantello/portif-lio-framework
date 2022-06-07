@@ -1,0 +1,86 @@
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos{
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+}
+
+.ab-me{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Inika', serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.desc{
+    color: white;
+}
+
+h1 button{
+    width: 500px;
+}
+
+.img{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills{
+    padding-top: 200px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+i{
+    font-size: 8rem;
+    color: white;
+}
+
+#sk{
+    width: 90vw;
+}
+
+#js, #java, #css, #html{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.language{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'inika';
+}
+
+.lab{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#cards{
+    width: 70vw;
+    display: flex;
+    gap: 200px;
+}
